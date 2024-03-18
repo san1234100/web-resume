@@ -12,10 +12,10 @@ const TheHeader = () => {
           user-friendly websites.
         </p>
       </div>
-      <div className="font-medium space-y-1">
-        <p>sanjeevchandru22@gmail</p>
-        <p>https://github.com/san1234100</p>
-        <p>www.linkedin.com/in/sanjeev-u</p>
+      <div className="font-medium space-y-1 flex flex-col">
+        <a href="mailto:sanjeevchandru22@gmail" className="hover:text-yellow-400">sanjeevchandru22@gmail</a>
+        <a href="https://github.com/san1234100" target="blank" className="hover:text-yellow-400">https://github.com/san1234100</a>
+        <a href="https://www.linkedin.com/in/sanjeev-u" target="blank" className="hover:text-yellow-400">www.linkedin.com/in/sanjeev-u</a>
       </div>
     </div>
   );
